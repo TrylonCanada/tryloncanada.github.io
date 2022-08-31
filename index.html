@@ -6,60 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vendor Bulletin</title>
-    <style>
-        body {
-            background: white;
-        }
-
-        #Bulletin {
-            font-family: Arial, Helvetica, sans-serif;
-            border-collapse: collapse;
-            width: 90%;
-            color: black;
-            margin: auto;
-        }
-
-        #Bulletin td,
-        #Bulletin th {
-            border: 1px solid #ddd;
-            padding: 10px;
-        }
-
-        #Bulletin tr:nth-child(even) {
-            background-color: #e5e5e5;
-        }
-
-        #Bulletin tr:hover {
-            background-color: white;
-            color: black;
-        }
-
-        #Bulletin th {
-            padding-top: 12px;
-            padding-bottom: 12px;
-            text-align: left;
-            background-color: white;
-            color: black;
-        }
-
-    </style>
+    <link rel="stylesheet" href="index_style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
 </head>
 
 <body>
-    <div class="header">
-        <h1 style="color:black" align="center">Vendor Updates</h1>
-    </div>
-    <table id="Bulletin">
-        <thead>
-            <tr>
-                <td colspan="3" align="center">Tracker</td>
-            </tr>
-        </thead>
+    <nav class="navbar navbar-expand navbar-dark bg-primary">
+        <a class="navbar-brand" href="index.html">Home</a>
+    </nav>
+    <h3 style="color:black" align="center">Updates</h3>
+    <table class="table" id="Bulletin">
+        
         <tbody>
             <tr>
                 <th>Date</td>
                 <th>Description</td>
                 <th>File Location</td>
+            </tr>
+            <tr>
+                <td>30-08-2022</td>
+                <td><a href="Ordinatedimensions.html">Ordinate dimensioning required for fabrication drawings</a></td>
+                <td>-</td>
             </tr>
             <tr>
                 <td>30-08-2022</td>
@@ -73,7 +40,7 @@
             </tr>
         </tbody>
     </table>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

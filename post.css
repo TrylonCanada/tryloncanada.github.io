@@ -1,0 +1,17 @@
+.heading {
+    text-decoration: underline;
+    text-align: left;
+    color: black;
+    width: 80%;
+    margin: auto;
+}
+
+.post {
+    font-size: 20px;
+    line-height: 30px;
+    background-color: #EFE9F4;
+    margin: auto;
+    width: 80%;
+    text-align: left;
+    color: black;
+}

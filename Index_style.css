@@ -1,0 +1,36 @@
+body {
+    background: white;
+    margin:auto;
+    padding: 10px;
+}
+
+#Bulletin {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    color: black;
+    margin: auto;
+}
+
+#Bulletin td,
+#Bulletin th {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+/* #Bulletin tr:nth-child(even) {
+    background-color: #e5e5e5;
+} */
+
+#Bulletin tr:hover {
+    background-color:#e5e5e5;
+    color: black;
+}
+
+#Bulletin th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: white;
+    color: black;
+}
